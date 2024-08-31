@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+}
+
+.main-container {
+    background-color: rgb(183, 214, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+}
+
+.qr-code-container {
+    margin-bottom: 20px;
+}
+
+.qr-code-image {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card-descripcion {
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 40px;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+}
